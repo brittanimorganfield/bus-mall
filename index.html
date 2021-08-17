@@ -1,14 +1,54 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Bus Mall Project</title>
 </head>
 <body>
-    
+<main>
+<header id="catalogHeader">
 
-    <script src="main.js"></script>
+</header>
+
+<section id="all_items">
+<h2>Choose your favorite item</h2>
+<div id="left_catalog_item">
+    <img id="left_catalog_item_img" src="" alt="The left catalog item image"/>
+    <p id="left_catalog_item_name"></p>
+</div>
+<div id="middle_catalog_item">
+    <img id="middle_catalog_item_img" src="" alt="The middle catalog item image"/>
+    <p id="middle_catalog_item_name"></p>
+</div>
+<div id="right_catalog_item">
+    <img id="right_catalog_item_img" src="" alt="The right catalog item image"/>
+    <p id="right_catalog_item_name"></p>
+</div>
+</section>
+
+<aside id="aside">
+    <ol id="finalScores">
+        <h3>Tally:</h3>
+    </ol>
+
+</aside>
+
+<div id="my-chart">
+    <canvas id="myChart" width="400px" height="250x"></canvas>
+</div>
+
+
+
+
+
+
+
+<!-- Link to our javascript -->
+<script src="main.js"></script>    
+</main>
 </body>
 </html>
